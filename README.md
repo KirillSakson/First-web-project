@@ -1,0 +1,1 @@
+My first frontend project using HTML, CSS, JS and a little bit of chatGPT
