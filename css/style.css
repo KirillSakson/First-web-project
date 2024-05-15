@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+.dark-body {
+    color: white;
+    background-color: #000;
+}
+
+.dark-header {
+    background-color: #222;
+}
+
+header {
+    background-color: #eee;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    text-align: center;
+}
+
+button {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin: 10px;
+    border: none;
+    font-family: "Product Sans";
+    font-size: 18px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+nav a:hover, button:hover {
+    background-color: #ccc;
+}
+
+nav a:active, button:active {
+    background-color: #bbb;
+}
+
+nav a:focus-visible, button:focus-visible {
+    background-color: #aaa;
+}
+
+article {
+    text-align: center;
+}
+
+p {
+    padding: 0px 30px;
+}
+
+article p {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+article img {
+    width: 820px;
+}
+
+footer {
+    background-color: #333;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.socicon {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+
+}
+
+.vk:hover {
+    background-color: #0077ff;
+}
+
+.yt:hover {
+    background-color: #c30000;
+}
+
+.tg:hover {
+    background-color: #0088cc;
+}
+
+.snpcht:hover {
+    background-color: #fffb00d6;
+}
+
+@media (max-width: 376px) {
+    article img {
+        width: 300px;
+    }
+    body {
+        font-size: 16px;
+    }
+    button {
+        display: none;
+    }
+    nav a {
+        margin: 5px 10px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 961px) {
+    article img {
+        width: 600px;
+    }
+    body {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1601px) {
+    body {
+        font-size: 19px;
+    }
+}
